@@ -4,7 +4,7 @@ Plugin to promote users with no roles set (the orphans) to the role from other b
 
 ## 使用条件
 
-多个 WP 站点使用一个数据库,以不同的表前缀区分不同站点的除用户之外的数据;
+多个 WP 站点使用同一个用户数据表,以不同的表前缀区分不同站点的除用户之外的数据;
 
 假如同一数据库有N个WordPress 站点的数据表,不同的 WordPress 站点以不同的
 数据表前缀做区别, 其中有 `www.site-1.com` 和 `www.site-2.com` 两个站点,想让
